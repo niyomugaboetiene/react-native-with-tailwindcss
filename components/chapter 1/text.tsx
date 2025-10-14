@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 export function Texts() {
   return (
     <View>
-        <Text>Hello React Native</Text>
+        <Text className="font-bold">Hello React Native</Text>
     </View>
   )
 }
