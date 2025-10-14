@@ -5,7 +5,7 @@ function SafeArea() {
     const [count, setCount] = useState(0);
 
     return (
-        <SafeAreaView className="flex-1 bg-blue-300 p-14">
+        <SafeAreaView className="flex-1 bg-blue-300 p-20">
             <View className="items-center pt-8">
                 <Text className="text-3xl font-bold text-white mb-2">
                     Counter App
@@ -32,7 +32,7 @@ function SafeArea() {
                         className="bg-yellow-400 px-6 py-4 rounded-xl shadow-lg active:bg-yellow-500"
                         onPress={() => setCount(0)}
                     >
-                        <Text className="">0</Text>
+                        <Text className="text-gray-600 text-lg font-semibold">0</Text>
                     </TouchableOpacity>
                     
                     <TouchableOpacity 
