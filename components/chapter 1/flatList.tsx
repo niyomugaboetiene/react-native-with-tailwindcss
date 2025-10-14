@@ -25,6 +25,7 @@ export default function List() {
                 data={data}
                 // keyExtractor uses unique key for each item 
                 keyExtractor={(item) => item.id}
+                className="font-bold"
                 renderItem={({ item }) => (
                     <Text style={{ fontSize: 20, padding: 10 }}>{item.name}</Text>
                 )}
