@@ -4,7 +4,7 @@ export default function Images() {
     return (
         <View>
            <Image source={{ uri: 'https://reactnative.dev/img/tiny_logo.png'}} 
-                  style={{ width: 100, height: 100 }}           
+                           
            />
            {/* on local image */}
         {/* <Image source={require('../../assets/avataaars.jpg')} 
