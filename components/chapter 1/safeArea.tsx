@@ -22,7 +22,7 @@ function SafeArea() {
 
                 <View className="flex-row gap-4 mb-8">
                     <TouchableOpacity 
-                        className=""
+                        className="bg-red-400 px-6 py-4 rounded-xl shadow-lg active:bg-red-500"
                         onPress={() => setCount(count - 1)}
                     >
                         <Text className="">-</Text>
