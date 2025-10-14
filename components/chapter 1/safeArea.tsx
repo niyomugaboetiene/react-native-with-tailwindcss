@@ -5,22 +5,22 @@ function SafeArea() {
     const [count, setCount] = useState(0);
 
     return (
-        <SafeAreaView className="flex-1 bg-blue-300 h-screen max-w-md p-14">
-            <View className="items-center pt-8 pb-6">
+        <SafeAreaView className="flex-1 bg-blue-300 p-14">
+            <View className="items-center pt-8">
                 <Text className="text-3xl font-bold text-white mb-2">
                     Counter App
                 </Text>
             
             </View>
 
-            <View className="flex-1 items-center justify-center px-8">
+            <View className="flex-1 items-center justify-center px-6">
                 <View className="bg-white/20 rounded-2xl p-8 mb-8 shadow-lg">
                     <Text className="text-4xl font-bold text-white text-center">
                         {count}
                     </Text>
                 </View>
 
-                <View className="flex flex-col space-x">
+                <View className="flex-row gap-4 mb-8">
                     <TouchableOpacity 
                         className=""
                         onPress={() => setCount(count - 1)}
