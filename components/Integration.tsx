@@ -5,6 +5,7 @@ import List from "./chapter 1/flatList";
 import Images from "./chapter 1/image";
 import SafeArea from "./chapter 1/safeArea";
 import { Texts } from "./chapter 1/text";
+import TextInputs from "./chapter 1/textInput";
 function Integration() {
     return (
         <ScreenContent title="Home">
@@ -12,7 +13,8 @@ function Integration() {
             {/* <List /> */}
             {/* <Images /> */}
             {/* <SafeArea /> */}
-            <Texts />
+            {/* <Texts /> */}
+            <TextInputs />
         </ScreenContent>
     )
 }
