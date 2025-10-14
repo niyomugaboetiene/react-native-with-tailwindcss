@@ -10,12 +10,12 @@ const data = [
     { id: '4', name: 'Anna'},
 ];
 
-const data2 = [
-    { id: '1', name: 'Etiene2'},
-    { id: '2', name: 'Alice2'},
-    { id: '3', name: 'Bob2'},
-    { id: '4', name: 'Anna2'}
-]
+// const data2 = [
+//     { id: '1', name: 'Etiene2'},
+//     { id: '2', name: 'Alice2'},
+//     { id: '3', name: 'Bob2'},
+//     { id: '4', name: 'Anna2'}
+// ]
 
 export default function List() {
     return (
@@ -29,14 +29,14 @@ export default function List() {
                     <Text style={{ fontSize: 20, padding: 10 }}>{item.name}</Text>
                 )}
             />
-
+{/* 
             <FlatList
-                data={data}
+                data={data2}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => (
                     <Text style={{ fontSize: 20, padding: 10 }}>{item.name}</Text>
                 )}
-            />
+            /> */}
         </View>
     )
 }
