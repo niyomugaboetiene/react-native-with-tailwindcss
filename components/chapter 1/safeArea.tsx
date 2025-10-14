@@ -25,7 +25,7 @@ function SafeArea() {
                         className="bg-red-400 px-6 py-4 rounded-xl shadow-lg active:bg-red-500"
                         onPress={() => setCount(count - 1)}
                     >
-                        <Text className="">-</Text>
+                        <Text className="text-gray-600 text-lg font-semibold">-</Text>
                     </TouchableOpacity>
                     
                     <TouchableOpacity 
