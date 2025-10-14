@@ -1,5 +1,6 @@
 // * FlatList is high-performance component for rendering long lists in react-native 
 import { FlatList, Text, View } from "react-native";
+import  { ScreenContent } from "../ScreenContent";
 
 const data = [
     // ! id is known as key extractor it help to know if item added, removed, or changed

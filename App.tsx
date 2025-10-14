@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import Buttons from 'components/chapter 1/button';
+import Integration from 'components/Integration';
 import './global.css';
 
 export default function App() {
   return (
     <>
-    <Buttons />
+    <Integration />
       <StatusBar style="auto" />
     </>
   );
