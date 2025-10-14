@@ -29,7 +29,7 @@ function SafeArea() {
                     </TouchableOpacity>
                     
                     <TouchableOpacity 
-                        className=""
+                        className="bg-yellow-400 px-6 py-4 rounded-xl shadow-lg active:bg-yellow-500"
                         onPress={() => setCount(0)}
                     >
                         <Text className="">0</Text>
