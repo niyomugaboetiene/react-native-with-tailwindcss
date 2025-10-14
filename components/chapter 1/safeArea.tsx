@@ -52,7 +52,7 @@ function SafeArea() {
             </View>
 
             <View className="">
-                <Text className="">
+                <Text className="text-center italic font-semibold text-gray-500">
                     Safe Area Protected 
                 </Text>
             </View>
