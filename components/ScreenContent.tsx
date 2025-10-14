@@ -5,7 +5,7 @@ type ScreenContentProps = {
   children?: React.ReactNode;
 };
 
-export const ScreenContent = ({ title, children }: ScreenContentProps) => {
+export const ScreenContent = ({ children }: ScreenContentProps) => {
   return (
     <View>
       {children}

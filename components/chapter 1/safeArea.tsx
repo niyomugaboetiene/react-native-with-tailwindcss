@@ -6,7 +6,6 @@ function SafeArea() {
 
     return (
         <SafeAreaView className="flex-1 bg-gradient-to-b from-blue-400 to-purple-600">
-            {/* Header */}
             <View className="items-center pt-8 pb-6">
                 <Text className="text-3xl font-bold text-white mb-2">
                     Counter App
@@ -16,16 +15,13 @@ function SafeArea() {
                 </Text>
             </View>
 
-            {/* Main Content */}
             <View className="flex-1 items-center justify-center px-6">
-                {/* Count Display */}
                 <View className="bg-white/20 rounded-2xl p-8 mb-8 shadow-lg">
                     <Text className="text-4xl font-bold text-white text-center">
                         {count}
                     </Text>
                 </View>
 
-                {/* Buttons Container */}
                 <View className="flex-row gap-4 mb-8">
                     <TouchableOpacity 
                         className="bg-red-400 px-6 py-4 rounded-xl shadow-lg active:bg-red-500"
@@ -49,7 +45,6 @@ function SafeArea() {
                     </TouchableOpacity>
                 </View>
 
-                {/* Status Message */}
                 <View className="bg-white/10 rounded-xl p-4">
                     <Text className="text-blue-100 text-center text-sm">
                         {count === 0 ? "Let's start counting! 🚀" : 
@@ -58,7 +53,6 @@ function SafeArea() {
                 </View>
             </View>
 
-            {/* Footer */}
             <View className="pb-6 px-6">
                 <Text className="text-blue-200 text-center text-xs">
                     Safe Area Protected ✓
