@@ -1,16 +1,17 @@
-// * simple button with a click handler
-import { Button, View,  } from "react-native";
-
+import React from "react";
+import { Text, TouchableOpacity } from "react-native";
+import { ScreenContent } from "components/ScreenContent";
 function Buttons() {
-   return (
-       <View>
-          <Button title="Click Me"
-          className="bg-blue-500 "
-             onPress={() => alert("Button pressed!")}
-          />
-       </View>
-)
+  return (
+    <ScreenContent title="Home">
+      <TouchableOpacity
+        className="bg-blue-900 px-6 py-3 rounded-lg"
+        onPress={() => alert("Button pressed!")}
+      >
+        <Text className="text-white text-lg font-bold">Click Me</Text>
+      </TouchableOpacity>
+    </ScreenContent>
+  );
 }
-
 
 export default Buttons;
