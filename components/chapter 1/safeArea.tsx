@@ -5,57 +5,55 @@ function SafeArea() {
     const [count, setCount] = useState(0);
 
     return (
-        <SafeAreaView className="flex-1 bg-gradient-to-b from-blue-400 to-purple-600">
-            <View className="items-center pt-8 pb-6">
-                <Text className="text-3xl font-bold text-white mb-2">
+        <SafeAreaView className="">
+            <View className="">
+                <Text className="">
                     Counter App
                 </Text>
-                <Text className="text-lg text-blue-100">
-                    Safe & Stylish Counting
-                </Text>
+            
             </View>
 
-            <View className="flex-1 items-center justify-center px-6">
-                <View className="bg-white/20 rounded-2xl p-8 mb-8 shadow-lg">
-                    <Text className="text-4xl font-bold text-white text-center">
+            <View className="">
+                <View className="">
+                    <Text className="">
                         {count}
                     </Text>
                 </View>
 
-                <View className="flex-row gap-4 mb-8">
+                <View className="">
                     <TouchableOpacity 
-                        className="bg-red-400 px-6 py-4 rounded-xl shadow-lg active:bg-red-500"
+                        className=""
                         onPress={() => setCount(count - 1)}
                     >
-                        <Text className="text-white text-lg font-semibold">-</Text>
+                        <Text className="">-</Text>
                     </TouchableOpacity>
                     
                     <TouchableOpacity 
-                        className="bg-gray-200 px-6 py-4 rounded-xl shadow-lg active:bg-gray-300"
+                        className=""
                         onPress={() => setCount(0)}
                     >
-                        <Text className="text-gray-800 text-lg font-semibold">0</Text>
+                        <Text className="">0</Text>
                     </TouchableOpacity>
                     
                     <TouchableOpacity 
-                        className="bg-green-400 px-6 py-4 rounded-xl shadow-lg active:bg-green-500"
+                        className=""
                         onPress={() => setCount(count + 1)}
                     >
-                        <Text className="text-white text-lg font-semibold">+</Text>
+                        <Text className="">+</Text>
                     </TouchableOpacity>
                 </View>
 
-                <View className="bg-white/10 rounded-xl p-4">
-                    <Text className="text-blue-100 text-center text-sm">
-                        {count === 0 ? "Let's start counting! 🚀" : 
-                         count > 0 ? "Going up! 📈" : "Going down! 📉"}
+                <View className="">
+                    <Text className="">
+                        {count === 0 ? "Let's start counting! " : 
+                         count > 0 ? "Going up! " : "Going down! "}
                     </Text>
                 </View>
             </View>
 
-            <View className="pb-6 px-6">
-                <Text className="text-blue-200 text-center text-xs">
-                    Safe Area Protected ✓
+            <View className="">
+                <Text className="">
+                    Safe Area Protected 
                 </Text>
             </View>
         </SafeAreaView>
