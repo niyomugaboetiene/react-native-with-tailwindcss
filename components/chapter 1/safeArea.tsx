@@ -14,8 +14,8 @@ function SafeArea() {
             </View>
 
             <View className="flex-1 items-center justify-center px-8">
-                <View className="">
-                    <Text className="font-bold text-2xl">
+                <View className="bg-white/20 rounded-2xl p-8 mb-8 shadow-lg">
+                    <Text className="text-4xl font-bold text-white text-center">
                         {count}
                     </Text>
                 </View>
