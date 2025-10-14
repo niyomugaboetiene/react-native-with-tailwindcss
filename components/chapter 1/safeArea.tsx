@@ -4,7 +4,8 @@ import React,{ useState } from "react";
 function SafeArea() {
     const [count, setCount] = useState(0);
     return (
-        <SafeAreaView className="min-h-screen bg">
+        <SafeAreaView className="min-h-screen bg-blue-500">
+            
             <Text>Hello in safe area !</Text>
             <Text>{count}</Text>
 
