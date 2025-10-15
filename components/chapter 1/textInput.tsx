@@ -5,9 +5,9 @@ export default function TextInputs() {
   const [name, setName] = useState("");
 
   return (
-    <View className="w-full bg-green-300 min-h-screen flex-1">
+    <View >
         <TextInput 
-        className="max-w-md justify-center items-ce"
+        className=""
            placeholder="Enter something..."
            onChangeText={setName}
     
