@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { View, Text, TextInput } from "react-native"
+import { View, Text, TextInput, TouchableOpacity } from "react-native"
 import { Button } from "react-native";
 
 function Project() {
@@ -8,7 +8,7 @@ function Project() {
     const [password, setPassword] = useState(""); 
     const [pressed, setPressed] = useState(false);
     return (
-        <View>
+        <View className="bg-gray-400 min-h-screen w-full me-[50px]">
             <Text>FIll out fo empy fields</Text>
            
             <Text>Name</Text>
@@ -29,18 +29,23 @@ function Project() {
               placeholder="Type you password here"
               />
 
-              <Button title="Submit"
+              <TouchableOpacity
+              className="bg-blue-500 w-3"
                   onPress={() => setPressed(true)}
-            />
+               >
+                <Text>Submit</Text>
+              </TouchableOpacity>
 
             {pressed ? (
                 <>
                    <Text>Hello you name is {name}</Text>
-                   <Text>Password {name}</Text>
+                   <Text>Password {password}</Text>
+                   <Text>Email {email}</Text>
                 </>
             ) : (
-
+                <Text>No you data appear here</Text>
             )}
         </View>
     )
 }
+export default Project

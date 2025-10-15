@@ -6,6 +6,7 @@ import Images from "./chapter 1/image";
 import SafeArea from "./chapter 1/safeArea";
 import { Texts } from "./chapter 1/text";
 import TextInputs from "./chapter 1/textInput";
+import Project from "./chapter 1/proj";
 function Integration() {
     return (
         <ScreenContent title="Home">
@@ -14,7 +15,8 @@ function Integration() {
             {/* <Images /> */}
             {/* <SafeArea /> */}
             {/* <Texts /> */}
-            <TextInputs />
+            {/* <TextInputs /> */}
+            <Project />
         </ScreenContent>
     )
 }
