@@ -7,7 +7,7 @@ export default function TextInputs() {
   return (
     <View className="w-full bg-green-300 min-h-screen flex-1">
         <TextInput 
-        className="max-w-md justify-center items-ce"
+        className="bg-gray-200 pt-4 mt-6 me-[200px] pe-4 ms-4 px-5 py-2 w-[330px] "
            placeholder="Enter something..."
            onChangeText={setName}
     
