@@ -6,7 +6,7 @@ export default function TextInputs() {
 
   return (
     <View className="w-full bg-green-300 min-h-screen flex-1">
-      <Text className="">Type Something</Text>
+      <Text className="ms-[100px] text-xl mt-4 font-bold text-white">Type Something</Text>
         <TextInput 
         className="bg-gray-200 pt-4 mt-6 me-[200px] pe-4 ms-4 px-5 py-2 w-[330px] rounded-lg shadow-lg placeholder:font-bold"
            placeholder="Enter something..."
