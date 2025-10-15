@@ -8,14 +8,17 @@ function Project() {
     const [password, setPassword] = useState(""); 
     const [pressed, setPressed] = useState(false);
     return (
-        <View className="bg-gray-400 min-h-screen w-full me-[50px]">
-            <Text>FIll out fo empy fields</Text>
-           
-            <Text>Name</Text>
-            <TextInput 
-              onChangeText={setName}
-              placeholder="Type you name here"
-              />
+        <View className="bg-gray-400 min-h-screen w-full me-[180px]">
+            <Text className="text-2xl font-bold text-white ms-10 mt-4">FIll out fo empy fields</Text>
+
+            <View>
+               <Text>Name</Text>
+               <TextInput 
+                   onChangeText={setName}
+                   placeholder="Type you name here"
+               />
+            </View>
+     
 
             <Text>Name</Text>
             <TextInput 
