@@ -16,7 +16,7 @@ function Project() {
                <TextInput 
                    className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                    onChangeText={setName}
-                   placeholder="Type you name here"
+                   placeholder="Type your name here"
                />
             </View>
      
@@ -25,7 +25,7 @@ function Project() {
               <TextInput 
                  className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                  onChangeText={setEmail}
-                 placeholder="Type you password here"
+                 placeholder="Type your password here"
               />
            </View>
       
@@ -34,7 +34,7 @@ function Project() {
                <TextInput 
                  className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                  onChangeText={setPassword}
-                 placeholder="Type you password here"
+                 placeholder="Type your password here"
                 />
           </View>
 
