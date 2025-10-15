@@ -32,6 +32,7 @@ function Project() {
           <View className="mt-[-15px] p-4 w-[75.5%]">
                <Text className="text-2xl text-gray-500 font-bold">Name</Text>
                <TextInput 
+                 className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                  onChangeText={setPassword}
                  placeholder="Type you password here"
                 />
