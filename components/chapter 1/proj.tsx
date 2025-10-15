@@ -20,18 +20,22 @@ function Project() {
                />
             </View>
      
-
-            <Text>Name</Text>
-            <TextInput 
-              onChangeText={setEmail}
-              placeholder="Type you password here"
+           <View className="mt-4 p-4 w-[75.5%]">
+            <Text>Email</Text>
+              <TextInput 
+                onChangeText={setEmail}
+                 placeholder="Type you password here"
               />
+           </View>
+      
+          <View>
+               <Text>Name</Text>
+               <TextInput 
+                 onChangeText={setPassword}
+                 placeholder="Type you password here"
+                />
+          </View>
 
-            <Text>Name</Text>
-            <TextInput 
-              onChangeText={setPassword}
-              placeholder="Type you password here"
-              />
 
               <TouchableOpacity
               className="bg-blue-500 w-3"
