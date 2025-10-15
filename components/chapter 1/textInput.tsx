@@ -12,7 +12,7 @@ export default function TextInputs() {
            placeholder="Enter something..."
            onChangeText={setName}    
            />
-           <ScrollView>
+           <ScrollView style={{ maxHeight: 300 }}>
                  <Text className="text-xl ms-5 mt-5 italic text-gray-500 font-bold w-full">{name}</Text>
            </ScrollView>
     </View>
