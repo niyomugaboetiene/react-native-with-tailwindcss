@@ -12,8 +12,9 @@ function Project() {
             <Text className="text-2xl font-bold text-white ms-10 mt-4">FIll out fo empy fields</Text>
 
             <View className="mt-4 p-4 w-[75.5%]">
-               <Text>Name</Text>
+               <Text className="text-2xl text-gray-500 font-bold">Name</Text>
                <TextInput 
+                   className=""
                    onChangeText={setName}
                    placeholder="Type you name here"
                />
