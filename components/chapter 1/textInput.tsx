@@ -13,7 +13,7 @@ export default function TextInputs() {
            onChangeText={setName}
     
            />
-           <Text className="text-xl ms-5 mt-5">{name}</Text>
+           <Text className="text-xl ms-5 mt-5 italic text-gray-500 font-bold">{name}</Text>
     </View>
   );
 }
