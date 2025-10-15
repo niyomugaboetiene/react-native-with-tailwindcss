@@ -11,7 +11,7 @@ function Project() {
         <View className="bg-gray-400 min-h-screen w-full me-[180px]">
             <Text className="text-2xl font-bold text-white ms-10 mt-4">FIll out fo empy fields</Text>
 
-            <View>
+            <View className="mt-4 p-4 ">
                <Text>Name</Text>
                <TextInput 
                    onChangeText={setName}
