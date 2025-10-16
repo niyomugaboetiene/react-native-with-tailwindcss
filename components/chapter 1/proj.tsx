@@ -40,21 +40,24 @@ function Project() {
 
 
               <TouchableOpacity
-              className="bg-blue-400 w-[310px] px-4 py-3 ms-4 mt-4 rounded-xl active:bg-blue-500"
+              className="bg-blue-400 w-[310px] px-4 py-3 ms-4 mt-4 rounded-xl active:bg-blue-500 shadow-xl"
                   onPress={() => setPressed(true)}
                >
                 <Text className="text-center font-bold text-gray-800">Submit</Text>
               </TouchableOpacity>
 
-            {pressed ? (
-                <>
-                   <Text>Hello you name is {name}</Text>
-                   <Text>Password {password}</Text>
-                   <Text>Email {email}</Text>
-                </>
-            ) : (
-                <Text>No you data appear here</Text>
-            )}
+           <View className="mt-4">
+              {pressed ? (
+                   <>
+                      <Text>Hello you name is {name}</Text>
+                      <Text>Password {password}</Text>
+                      <Text>Email {email}</Text>
+                   </>
+               ) : (
+                     <Text>No you data appear here</Text>
+                )}
+           </View>
+   
         </View>
     )
 }
