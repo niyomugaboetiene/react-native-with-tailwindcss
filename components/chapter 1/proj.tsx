@@ -40,7 +40,7 @@ function Project() {
 
 
               <TouchableOpacity
-              className="bg-blue-500 w-3"
+              className="bg-blue-500 w-12 px-1"
                   onPress={() => setPressed(true)}
                >
                 <Text>Submit</Text>
