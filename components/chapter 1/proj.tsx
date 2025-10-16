@@ -46,7 +46,7 @@ function Project() {
                 <Text className="text-center font-bold text-gray-800">Submit</Text>
               </TouchableOpacity>
 
-           <View className="mt-4">
+           <View className="mt-4 ms-5 ">
               {pressed ? (
                    <>
                       <Text>Hello you name is {name}</Text>
