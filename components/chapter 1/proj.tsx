@@ -12,7 +12,7 @@ function Project() {
             <Text className="text-2xl font-bold text-white ms-10 mt-4">FIll out fo empy fields</Text>
 
             <View className="mt-4 p-4 w-[75.5%]">
-               <Text className="text-2xl text-gray-500 font-bold">Name</Text>
+               <Text className="text-xl text-gray-500 font-bold">Name</Text>
                <TextInput 
                    className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                    onChangeText={setName}
@@ -21,7 +21,7 @@ function Project() {
             </View>
      
            <View className="mt-[-15px] p-4 w-[75.5%]">
-            <Text className="text-2xl text-gray-500 font-bold">Email</Text>
+            <Text className="text-xl text-gray-500 font-bold">Email</Text>
               <TextInput 
                  className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                  onChangeText={setEmail}
@@ -30,7 +30,7 @@ function Project() {
            </View>
       
           <View className="mt-[-15px] p-4 w-[75.5%]">
-               <Text className="text-2xl text-gray-500 font-bold">Name</Text>
+               <Text className="text-xl text-gray-500 font-bold">Name</Text>
                <TextInput 
                  className="py-3 bg-white rounded-lg shadow-2xl placeholder:font-bold"
                  onChangeText={setPassword}
