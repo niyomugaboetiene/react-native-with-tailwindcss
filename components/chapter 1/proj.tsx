@@ -8,7 +8,7 @@ function Project() {
     const [password, setPassword] = useState(""); 
     const [pressed, setPressed] = useState(false);
     return (
-        <View className="bg-gray-400 min-h-screen w-full me-[180px]">
+        <View className="bg-gray-400 min-h-screen w-full me-[130px]">
             <Text className="text-2xl font-bold text-white ms-10 mt-4">FIll out fo empy fields</Text>
 
             <View className="mt-4 p-4 w-[75.5%]">
@@ -40,7 +40,7 @@ function Project() {
 
 
               <TouchableOpacity
-              className="bg-blue-500 w-12 px-1"
+              className="bg-blue-500 w-[310px] px-1 ms-4"
                   onPress={() => setPressed(true)}
                >
                 <Text>Submit</Text>
