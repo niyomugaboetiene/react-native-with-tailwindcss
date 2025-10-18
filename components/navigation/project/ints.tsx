@@ -14,7 +14,9 @@ export default function Ints() {
                screenOptions={{
                 headerShown: false,
                 tabBarActiveTintColor: 'blue',
-                tabBarInactiveBackgroundColor: 'gray'
+                tabBarInactiveBackgroundColor: 'gray',
+                tabBarStyle: { backgroundColor: '#f8f8f8' },
+
                }}>
                 <Tab.Screen name="Home" component={Profile} />
                 <Tab.Screen name="Setting" component={Home} />
