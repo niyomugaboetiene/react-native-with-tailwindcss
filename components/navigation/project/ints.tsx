@@ -18,8 +18,8 @@ export default function Ints() {
                 tabBarStyle: { backgroundColor: '#f8f8f8' },
 
                }}>
-                <Tab.Screen name="Home" component={Profile} />
-                <Tab.Screen name="Setting" component={Home} />
+                <Tab.Screen name="Home" component={Home} />
+                <Tab.Screen name="Profile" component={Profile} />
                 <Tab.Screen name="Setting" component={Settings} />
             </Tab.Navigator>
         </View>
