@@ -11,8 +11,8 @@ export default function Home() {
     <View className="flex-1">
       <Container>
         <ScreenContent>
-          {/* <Interaction /> */}
-          <Project />
+          <Interaction />
+          {/* <Project /> */}
            {/* <Buttons /> */}
         </ScreenContent>
       </Container>
