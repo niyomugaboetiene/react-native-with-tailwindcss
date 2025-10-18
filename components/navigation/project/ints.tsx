@@ -9,7 +9,12 @@ const Tab = createBottomTabNavigator();
 export default function Ints() {
     return (
         <View>
-            <Tab.Navigator>
+            <Tab.Navigator
+               screenOptions={{
+                headerShown: false,
+                tabBarActiveTintColor: 'blue',
+                tabBarInactiveBackgroundColor: 'gray'
+               }}>
                 <Tab.Screen name="Home" component={Profile} />
                 <Tab.Screen name="Setting" component={Home} />
                 <Tab.Screen name="Setting" component={Settings} />
