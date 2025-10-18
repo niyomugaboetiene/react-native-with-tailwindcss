@@ -24,3 +24,4 @@ const styles = {
   link: `mt-4 pt-4`,
   linkText: `text-base text-[#2e78b7]`,
 };
+
