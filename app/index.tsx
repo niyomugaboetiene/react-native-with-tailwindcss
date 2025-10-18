@@ -4,6 +4,7 @@ import { Container } from '@/components/Container';
 import { ScreenContent } from '@/components/ScreenContent';
 import Interaction from '@/components/navigation/interaction';
 import Buttons from '@/components/chapter 1/button';
+import Project from '@/components/chapter 1/proj';
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <Container>
         <ScreenContent>
           {/* <Interaction /> */}
-           <Buttons />
+          <Project />
+           {/* <Buttons /> */}
         </ScreenContent>
       </Container>
     </View>
