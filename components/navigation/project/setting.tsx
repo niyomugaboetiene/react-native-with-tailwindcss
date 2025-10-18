@@ -1,9 +1,9 @@
 import { View, Text } from "react-native"
 
-export default function Profile() {
+export default function Settings() {
     return (
         <View>
-            <Text>my profile App</Text>
+            <Text>You can manage your preference</Text>
         </View>
     )
 }
