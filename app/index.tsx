@@ -12,10 +12,10 @@ export default function Home() {
     <View className="flex-1">
       <Container>
         <ScreenContent>
-          {/* <Interaction /> */}
+          <Interaction />
           {/* <Project /> */}
            {/* <Buttons /> */}
-           <Ints />
+           {/* <Ints /> */}
         </ScreenContent>
       </Container>
     </View>
