@@ -10,7 +10,9 @@ export default function Ints() {
     return (
         <View>
             <Tab.Navigator>
-                <Tab.Screen name="Home" component={}/>
+                <Tab.Screen name="Home" component={Profile} />
+                <Tab.Screen name="Setting" component={Home} />
+                <Tab.Screen name="Setting" component={Settings} />
             </Tab.Navigator>
         </View>
     )
