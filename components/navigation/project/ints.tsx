@@ -1,7 +1,9 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { View } from "react-native";
 import Profile from "./profile";
-import 
+import Home from "../home";
+import Settings from "./setting";
+
 const Tab = createBottomTabNavigator();
 
 export default function Ints() {
